@@ -1,0 +1,10 @@
+<!-- 此处为HTML代码，置于<body>中，一般结合用<div></div>包裹以实现 -->
+<video
+        src="https://www.seastart.tv/introduce.mp4"
+        x5-video-player-type="h5"
+        playsinline
+        webkit-playsinline
+        controls></video>
+    <p class='desc'>
+       <!-- 填写相关的文件和介绍-->
+    </p>
