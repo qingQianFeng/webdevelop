@@ -1,0 +1,33 @@
+'
+<style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        video {
+            width: 100%;
+            height: 211px;
+        }
+        video.android-full {
+            position: relative;
+            height: 100%;
+            object-fit: contain;
+            object-position: left 0 top 0;
+        }
+        video.android-full::-webkit-media-controls-enclosure {
+            -webkit-appearance: none;
+            position: absolute;
+            top: 166px;
+        }
+        .desc.android-full {
+            position: absolute;
+            top: 211px;
+        }
+    </style>
+--------------------- 
+作者：css_666 
+来源：CSDN 
+原文：https://blog.csdn.net/css_666/article/details/79037266 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+'
