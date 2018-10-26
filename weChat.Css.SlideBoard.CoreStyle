@@ -1,0 +1,37 @@
+<style type="text/css">
+#box 
+{
+	  /*下面调整外边距，用四个数字标注，空格隔开，顺序为上 右 下 左*/    
+		/*内边距*/
+		padding:30% 0% 5% 40%;
+		/*外边距*/
+		margin: 0px;
+		/*背景图片*/
+		background-image:url(http://www.huibaostreet.com/01.png);
+		display:webkit-box;
+    overflow-x:scroll;
+    -webkit-overflow-scrolling:touch;
+}
+	   /*横向滚动条的设置，此处display标签设置为none时不显示scrollbar*/
+     
+#box::-webkit-scrollbar
+{
+		display:none;
+}
+     /*在下面调整容器尺寸*/
+     
+.boxitem
+{
+      width: 193px;
+      height: 257px;
+      border: 0px;
+      margin-right: 4px;
+			background-color: rgbs(0,0,0,00);
+}
+      /*在下面调整图片宽高比的缩放*/
+img
+{
+      width:100%;
+      height:100%;
+}
+</style>
