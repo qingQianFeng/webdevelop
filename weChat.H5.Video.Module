@@ -1,4 +1,4 @@
-'
+<!-- 微信H5同层视频播放代码控制，置于<head>标签内-->
 <style>
         html, body {
             margin: 0;
@@ -25,9 +25,5 @@
             top: 211px;
         }
     </style>
---------------------- 
-作者：css_666 
-来源：CSDN 
-原文：https://blog.csdn.net/css_666/article/details/79037266 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
 '
